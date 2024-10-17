@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdullah | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">Abdullah</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <img src="image1.png" alt="Abdullah's Profile Picture" class="profile-pic">
+    <h1>Hello, I'm Abdullah</h1>
+    <p>Aspiring Graphic Designer & Creative Enthusiast</p>
+    <a href="#projects" class="btn">See My Work</a>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Abdullah, a student at Rehan School, passionate about graphic design and visual arts. I love crafting creative solutions and bringing unique concepts to life through my work.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-card">
+      <h3>Project 1: Unveiling the Hidden Beauty of Pakistan</h3>
+      <p>A visual exploration of Pakistan’s diverse culture, landscapes, and traditions.</p>
+    </div>
+    <div class="project-card">
+      <h3>Project 2: Branding & Logo Designs</h3>
+      <p>A collection of modern and impactful logo designs for local businesses.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Get in Touch</h2>
+    <p>Feel free to reach out for collaborations or just to say hello!</p>
+    <a href="mailto:abdullah@example.com" class="btn">Email Me</a>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 Abdullah | Designed with ❤️</p>
+  </footer>
+</body>
+</html>
